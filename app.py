@@ -163,7 +163,7 @@ def show_chat_history(session_id=None):
 # Env variables and global variables
 LLM_Model="Gemma2-9b-It"
 HF_Embed_Model = "all-MiniLM-L6-v2"
-groq_api_key = st.secrets["GROQ_API_KEY"]
+groq_api_key = st.secrets["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"]
 
 if 'store' not in st.session_state:
     st.session_state.store={}
