@@ -161,7 +161,7 @@ def show_chat_history(session_id=None):
 
 
 # Env variables and global variables
-LLM_Model="Llama-3.1-405b-Reasoning"
+LLM_Model="llama-3.1-70b-versatile"
 HF_Embed_Model = "all-MiniLM-L6-v2"
 groq_api_key = st.secrets["GROQ_API_KEY"]
 
