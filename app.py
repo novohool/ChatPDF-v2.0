@@ -216,4 +216,4 @@ if files:
             start_new_chat()
             chat_placeholder.empty()
 
-        # st.write(st.session_state.store)
+        st.write(st.session_state.store)
